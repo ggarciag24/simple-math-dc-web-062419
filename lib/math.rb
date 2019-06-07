@@ -1,11 +1,11 @@
 def addition(num1, num2)
     totaladd = num1 + num2
-    puts totaladd
+    return totaladd
 end
 
 def subtraction(num1, num2)
     totalsub = num1 - num2
-    puts totalsub
+    return totalsub
 end
 
 def division(num1, num2)
