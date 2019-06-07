@@ -9,15 +9,22 @@ def subtraction(num1, num2)
 end
 
 def division(num1, num2)
+    totaldiv = num1 / num2
+    return totaldiv
 end
 
 def multiplication(num1, num2)
+    totalmul = num1 * num2
+    return totalmul
 end
 
 def modulo(num1, num2)
+    totalmod = num1 % num2
+    return totalmod
 end
 
 def square_root(num)
+  return Math.sqrt(num)
 end
 
 def order_of_operation(num1, num2, num3, num4)
